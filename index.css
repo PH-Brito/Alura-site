@@ -1,0 +1,147 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio{    
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: auto;
+    
+
+}
+
+.cuboinc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 588px;
+    height: 400px;
+    margin-left:50px;
+    position: absolute;
+    padding-top: 100px;
+    left: 6px;
+}
+.cuboinc p {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 400px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-top: 60px;
+}
+.cuboinc h1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 400px;
+    text-align: center; 
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    width:512px;
+    height:52px;
+    gap: 12px;
+}
+.blue{
+    border-radius: 40px;
+    background-color: #167BF7;
+    padding: 16px;
+    border-style: none;
+}
+.normal{
+    border-radius: 40px;
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    border: 3px solid #167BF7;
+}
+.assista{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+   
+}
+.inscrevase{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.curso{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.button2{
+    border-radius: 10px;
+    background-color: #167BF7;
+    padding: 16px;
+    border-style: none;
+    margin-top: 15px;
+}
+.semi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;  
+} 
+.imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.imagem p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.final{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.final img{
+    margin-bottom: 30px;
+}
+.final p{
+    font-size: 15px;
+    text-align: center;
+    margin-top:15px;
+    margin-bottom: 50px;
+}
+
+
+
+
